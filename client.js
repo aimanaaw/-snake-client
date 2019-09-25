@@ -17,7 +17,5 @@ const connect = function() {
 
 }
 
-module.exports = connect;
+module.exports = {connect};
 
-console.log('Connecting ...');
-connect();
